@@ -1,0 +1,9 @@
+remote_theme: al-folio@main
+plugins: 
+- jekyll-remote-theme
+
+title: Waste Classifier
+description: An image classification API that identifies the type of waste.
+author:
+  name: A K M Mushfiqur Rahman
+  

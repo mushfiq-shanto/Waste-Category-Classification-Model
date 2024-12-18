@@ -71,7 +71,7 @@ Users can upload an image of waste, and the model will predict its category with
 The trained model was deployed using Hugging Face Spaces and integrated with a Gradio web interface for user interaction. The deployment enables users to upload images and receive predictions in real time.
 
 - Deployment details and implementation can be found in the `deployment` folder.
-- The deployed Gradio app is accessible [here](https://huggingface.co/spaces/msideadman/cap-recognizer).  
+- The deployed Gradio app is accessible [here](https://huggingface.co/spaces/mushfiq-shanto/waste_classifier).  
 - Example of the Gradio app interface:
 
 ![Gradio App Interface](deployment/gradio_app.png)

@@ -3,58 +3,11 @@ title: Waste Classifier
 layout: page
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waste Classifier</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        input[type="file"] {
-            display: block;
-            margin: 20px auto;
-            padding: 10px;
-            border: 2px dashed #007BFF;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-        #results img {
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -63,7 +16,7 @@ layout: page
     <main>
         <h2>Upload Image</h2>
         <p>Select an image of waste to classify it into one of the following categories:</p>
-        <ul style="text-align: left; max-width: 400px; margin: 0 auto;">
+        <ul>
             <li>Organic Waste</li>
             <li>Textiles Waste</li>
             <li>Paper Waste</li>
@@ -92,7 +45,7 @@ layout: page
             const json = await response.json();
             const label = json['data'][0]['label'];
             results.innerHTML = `
-                <img src="${reader.result}" alt="Uploaded image" width="500">
+                <img src="${reader.result}" alt="Uploaded image">
                 <p><strong>Category:</strong> ${label}</p>
             `;
         }

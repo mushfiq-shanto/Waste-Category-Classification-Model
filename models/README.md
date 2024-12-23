@@ -1,0 +1,1 @@
+Download the trained and exported model here: https://drive.google.com/drive/folders/1vkp3Oox1e8xgLdqG17sAQ_mDfYHJHrSv?usp=drive_link

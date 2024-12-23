@@ -58,7 +58,7 @@ Users can upload an image of waste, and the model will predict its category with
 
 ### Training
 - A ResNet34 model was fine-tuned using transfer learning for three rounds of five epochs each.
-- Achieved an accuracy of approximately 89% after multiple iterations of training.
+- Achieved an accuracy of approximately 84% after multiple iterations of training.
 
 ### Data Cleaning
 - A significant effort was spent cleaning the dataset due to noise from web-scraped images.

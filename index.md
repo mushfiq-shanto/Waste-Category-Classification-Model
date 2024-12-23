@@ -10,9 +10,6 @@ layout: page
     <title>Waste Classifier</title>
 </head>
 <body>
-    <header>
-        <h1>Waste Classifier</h1>
-    </header>
     <main>
         <p>
             Use this application to classify waste into categories based on an uploaded image. This helps in organizing waste for proper recycling or disposal.
@@ -35,8 +32,5 @@ layout: page
             Go to the "Waste Classifier" page to upload an image and get started.
         </p>
     </main>
-    <footer>
-        &copy; 2024 Waste Classification Tool
-    </footer>
 </body>
 </html>

@@ -82,7 +82,7 @@ The trained model was deployed using Hugging Face Spaces and integrated with a G
 
 The application’s functionality is extended through integration with a GitHub Pages website, providing a user-friendly interface to access the classification API.
 
-- **GitHub Pages Integration:** [Waste Classifier Application](https://mushfiq-shanto.github.io/waste_classifier/)
+- **GitHub Pages Integration:** [Waste Classifier Application]([https://mushfiq-shanto.github.io/waste_classifier/](https://mushfiq-shanto.github.io/Waste-Category-Classification-Model/))
 - **Implementation Details:** Refer to the `docs` folder.
 
 This seamless integration demonstrates how machine learning models can be embedded into static websites to deliver real-time results.
